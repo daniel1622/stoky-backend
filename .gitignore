@@ -1,0 +1,109 @@
+# Node modules - Las dependencias instaladas con npm o yarn.
+node_modules/
+
+# Logs - Archivos de log generados por el servidor o librerías.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Environment variables - Archivos que contienen credenciales o configuraciones locales.
+.env
+.env.test
+.env.production
+.env.development.local
+.env*.local
+
+# Directorios de construcción y compilación - Generados por herramientas como Babel, TypeScript, Webpack, etc.
+build/
+dist/
+.out/
+.cache/
+.next/
+.svelte-kit/
+storybook-static/
+
+# Directorios de paquetes y bundles - Si estás generando bundles o ejecutables.
+coverage/
+.pack/
+.parcel-cache/
+.vscode/
+.docker/
+.idea/
+target/
+lib/
+
+# Directorios de pruebas y reportes de cobertura.
+.jest/
+jest-html-reporters-*.json
+coverage/
+.nyc_output/
+karma-coverage/
+
+# Archivos de configuración de editores o entornos de desarrollo.
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# SASS cache
+.sass-cache/
+
+# PM2 - Procesos de administración de node.
+pids/
+*.pid
+*.pid.lock
+
+# Bower - Dependencias de Bower, si las usas.
+bower_components/
+
+# Parcel cache
+.cache/
+
+# Lockfiles - Solo si usas un solo gestor de paquetes y quieres evitar conflictos con otros.
+# Si estás usando `npm`:
+yarn.lock
+pnpm-lock.yaml
+# Si estás usando `yarn`:
+package-lock.json
+pnpm-lock.yaml
+# Si estás usando `pnpm`:
+package-lock.json
+yarn.lock
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# MacOS metadata - Archivos generados automáticamente por macOS.
+.DS_Store
+
+# Windows metadata - Archivos generados automáticamente por Windows.
+Thumbs.db
+ehthumbs.db
+
+# Linux metadata
+*~
+
+# Archivos de lock de procesos.
+*.lock
+
+# Archivos temporales creados por el sistema.
+tmp/
+temp/
+
+# Logs de pm2 (si usas pm2 para manejar procesos de Node.js)
+pm2.log
+pm2-*
+
+# Archivos de configuración temporales (opcional)
+config/local.json
+config/local.yaml
+
+# Otros archivos sensibles
+*.pem
+*.key
+*.crt
+
